@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+.content {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+.title {
+  height: 30%;
+  width: 100%;
+  overflow: hidden;
+  /* background-color: #fff; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title h1 {
+  margin: 1.5rem 0;
+  word-spacing: 1rem;
+  letter-spacing: 0.1.95rem;
+}
+.game {
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+  /* background-color: red; */
+}
