@@ -36,6 +36,7 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
+  transition: all 1000ms linear;
 }
 .title h1 {
   margin: 1.5rem 0;
@@ -48,6 +49,10 @@ body {
   bottom: 5rem;
   letter-spacing: 0.1rem;
 }
+#game-h1 {
+  transition: all 500ms linear;
+}
+
 /* GAME
 ------------------------------------------------------------ */
 .game {
@@ -58,6 +63,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 1000ms linear;
 }
 .game-section {
   display: flex;
@@ -68,15 +74,6 @@ body {
   width: 28%;
   height: 70%;
 }
-/* .game-section:nth-child(1){
- background-color: red;
-}
-.game-section:nth-child(2){
-    background-color: yellow;
-}
-.game-section:nth-child(3){
-    background-color: green;
-} */
 
 .sec-title {
   font-size: 3rem;
@@ -103,6 +100,25 @@ body {
   cursor: pointer;
   padding: 1rem;
 }
-.game-section:nth-child(3) .button i {
+.fas.fa-hand-scissors {
   transform: rotateZ(90deg);
+}
+.gs2 .chosen div span {
+  font-size: rrem;
+}
+.gs2 .chosen div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.opacity {
+  opacity: 0;
+  z-index: -2;
+}
+
+.gs1,
+.gs2,
+.gs3 {
+  transition: all 500ms linear;
 }
