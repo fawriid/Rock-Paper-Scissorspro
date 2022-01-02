@@ -10,6 +10,7 @@ html {
 }
 body {
   font-size: 1.6rem;
+  position: relative;
 }
 /* CONTENT
 ---------------------------------------------------- */
@@ -121,4 +122,10 @@ body {
 .gs2,
 .gs3 {
   transition: all 500ms linear;
+}
+.author__name{
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  color: #ccc;
 }
